@@ -3,8 +3,17 @@ import { connect } from "react-redux";
 import { User } from "./User";
 import { store } from "../../store";
 
+interface UserProps {
+  attributes: {
+    "first-name": string;
+    "last-name": string;
+  };
+}
+
 interface UsersProps {
-  users: any;
+  users: {
+    data: UserProps[];
+  };
 }
 
 interface UsersState {}

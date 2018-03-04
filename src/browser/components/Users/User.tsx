@@ -1,6 +1,13 @@
 import React from "react";
 
-export const User = ({ attributes }: any, index: number) => {
+interface UserProps {
+  attributes: {
+    "first-name": string;
+    "last-name": string;
+  };
+}
+
+export const User = ({ attributes }: UserProps, index: number) => {
   const number = index + 1;
   const firstName = attributes["first-name"];
   const lastName = attributes["last-name"];
