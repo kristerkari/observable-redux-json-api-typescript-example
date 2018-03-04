@@ -18,7 +18,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "jsonapi-serializer": "^3.5.6",
-    "observable-redux-json-api": "^0.0.12",
+    "observable-redux-json-api": "^0.0.13",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
