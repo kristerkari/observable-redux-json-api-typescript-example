@@ -76,7 +76,7 @@ Open `http://localhost:8080` in your web browser.
 
 ## Visualize bundle size
 
-It's important for any library to keep it's bundle size small. Currently the bundle size of the example app without minifying the code is around 63kb gzipped. There is some work still to be done to get that size to be smaller.
+It's important for any library to keep it's bundle size small. Currently the bundle size of the example app without minifying the code is around 59kb gzipped. There is some work still to be done to get that size to be smaller.
 
 To visualize what the example app's bundle consists of:
 
